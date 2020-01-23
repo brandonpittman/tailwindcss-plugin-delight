@@ -28,5 +28,16 @@
     "plugin"
   ],
   "author": "Brandon Pittman",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/brandonpittman/tailwindcss-plugin-delight.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/brandonpittman/tailwindcss-plugin-delight/issues"
+  },
+  "homepage": "https://gitlab.com/brandonpittman/tailwindcss-plugin-delight#readme"
 }
