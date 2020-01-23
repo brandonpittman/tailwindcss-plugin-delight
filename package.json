@@ -1,0 +1,32 @@
+{
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "name": "tailwindcss-plugin-delight",
+  "version": "0.1.1",
+  "description": "Delightful components for Tailwind CSS.",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss-plugin-content": "0.1.3",
+    "tailwindcss": "^1.2.0-canary.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "resolve": "^1.14.1"
+  },
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin"
+  ],
+  "author": "Brandon Pittman",
+  "license": "MIT"
+}
