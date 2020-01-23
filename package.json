@@ -8,17 +8,17 @@
   "description": "Delightful components for Tailwind CSS.",
   "main": "index.js",
   "dependencies": {
-    "tailwindcss-plugin-content": "0.1.3",
-    "tailwindcss": "^1.2.0-canary.2"
+    "tailwindcss-plugin-content": "1.0.1",
+    "tailwindcss": "^1.2.0-canary.5"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "resolve": "^1.14.1"
+    "resolve": "^1.15.0"
   },
   "scripts": {
     "test": "standard --fix"
