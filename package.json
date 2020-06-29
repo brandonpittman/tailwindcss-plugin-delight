@@ -4,7 +4,7 @@
     "lib"
   ],
   "name": "tailwindcss-plugin-delight",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Delightful components for Tailwind CSS.",
   "main": "index.js",
   "dependencies": {
