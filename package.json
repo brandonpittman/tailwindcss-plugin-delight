@@ -8,24 +8,20 @@
   "description": "Delightful components for Tailwind CSS.",
   "main": "index.js",
   "dependencies": {
-    "tailwindcss-plugin-content": "1.0.1",
-    "tailwindcss": "^1.2.0-canary.5"
+    "tailwindcss-plugin-fancy": "^1.2.22",
+    "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "resolve": "^1.15.0"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
   },
-  "scripts": {
-    "test": "standard --fix"
-  },
+  "scripts": {},
   "keywords": [
     "tailwindcss",
-    "plugin"
+    "plugin",
+    "animation",
+    "delight"
   ],
   "author": "Brandon Pittman",
   "license": "MIT",
@@ -34,10 +30,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/brandonpittman/tailwindcss-plugin-delight.git"
+    "url": "git+ssh://git@github.com/brandonpittman/tailwindcss-plugin-delight.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/brandonpittman/tailwindcss-plugin-delight/issues"
+    "url": "https://github.com/brandonpittman/tailwindcss-plugin-delight/issues"
   },
-  "homepage": "https://gitlab.com/brandonpittman/tailwindcss-plugin-delight#readme"
+  "homepage": "https://github.com/brandonpittman/tailwindcss-plugin-delight#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
 }
