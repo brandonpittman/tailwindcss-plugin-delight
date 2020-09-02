@@ -7,14 +7,16 @@
   "version": "0.2.2",
   "description": "Delightful components for Tailwind CSS.",
   "main": "index.js",
-  "dependencies": {
-    "tailwindcss-plugin-fancy": "^1.2.22",
-    "tailwindcss": "^1.4.6"
+  "peerDependencies": {
+    "tailwindcss-plugin-fancy": "^1.2.24",
+    "tailwindcss": "^1.7.6"
   },
   "devDependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "prettier": "^2.1.1",
+    "tailwindcss": "^1.7.6",
+    "tailwindcss-plugin-fancy": "^1.2.24"
   },
   "scripts": {},
   "keywords": [
